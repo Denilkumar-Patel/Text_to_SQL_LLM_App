@@ -40,7 +40,7 @@ def read_sql_query(sql, server, database):
     conn.close()
     for row in rows:
         print(row)
-    return rows
+    return rows    
 
 
 
